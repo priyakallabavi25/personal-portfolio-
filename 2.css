@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #6c63ff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ff4b5c;
+}
+
+/* Home Section */
+.home-section {
+    height: 100vh;
+    background: linear-gradient(135deg, #8abdf7, #f76ff0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-content span {
+    color: #ffd700;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.cta {
+    background-color: #ffd700;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #ff4b5c;
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f0f2f5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #6c63ff;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Skills Section */
+.skills-section {
+    background: linear-gradient(135deg, #6c63ff, #b25ef7);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.skills-section h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-item {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #6c63ff;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+    background-color: #ffd700;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f0f2f5;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    background-color: #6ccff7;
+    color: white;
+}
+
+.project-link {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: #ffd700;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #6c63ff;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4b5c;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
